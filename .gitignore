@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+downloads/*
+!downloads/.gitkeep
+.env
+venv/
+.DS_Store
+
+# Sensitive Google & YouTube Credentials (DO NOT PUSH TO GITHUB)
+client_secrets.json
+token.json
+
+# Video / Audio temp files
+*.mp4
+*.mkv
+*.webm
+*.part
+*.ytdl
